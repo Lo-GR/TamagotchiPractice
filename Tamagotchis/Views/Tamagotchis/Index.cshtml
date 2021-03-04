@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title> </title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
-<body>
-<div class="container">
+@using Tamagotchis.Models;
 
+<div class="container">
+  <h2>Home</h2>
+  @if (Model.Count == 0)
+  {
+    <p>There are no Tamagotchis yet!</p>
+  }
+  <ul>
+    @foreach (Tamagotchi tamagotchi in Model)
+    {
+      <li><a href="/tamagotchis/@tamagotchi.Id">@tamagotchi.Name</a>Status: @tamagotchi.AliveOrDead() </li>
+    }
+  </ul>
+  <a href="/tamagotchis/new">Add a Tamagotchi</a>
+  <a href="/tamagotchis"> Refresh Tamagotchis</a>
+  <form action="/tamagotchis/passtime" method="post">
+    <button type="submit">Pass Time</button>
+  </form>
 </div>
-</body>
-</html>
