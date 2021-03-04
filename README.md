@@ -1,11 +1,12 @@
-# **Practice Webpage: Job Opening**
+# **Practice Webpage: Tamagotchi**
 ### This is a web application for practice
 
  ### _Contributor(s) and Contact Info_
 > Logan Roth diamondintheroth@gmail.com - [GitHub(Lo-GR)](https://github.com/Lo-GR)
 
-> Morgan Bradford morganjbradford95@gmail.com - [GitHub](https://github.com/MorganJBradford)
+> Levi Kohler kohler.la01@gmail.com - [GitHub](https://github.com/levi-kohler)
 
+>Jeroen van Seeters vanseetersjeroen@gmail.com - [GitHub](https://github.com/Jeroenemo)
 <br/>
 
 ## _Technologies Used_
@@ -24,10 +25,10 @@ This is a practice project for practicing C#, Razor, .NET framework, and MVC for
 
 ## _Use Guide_
 
-> Repository: https://github.com/Lo-GR/JobOpeningWIP.git
+> Repository: https://github.com/Lo-GR/TamagotchiPractice.git
 1. Clone the above repository from Github.
-2. In your terminal, navigate to Jobboard directory and run "dotnet build" to build application within directory. 
-3. In your terminal, while still in Jobboard directory, run "dotnet run" to run application within terminal. Follow the instructions outlined in the terminal.
+2. In your terminal, navigate to Tamagotchi directory and run "dotnet build" to build application within directory. 
+3. In your terminal, while still in Tamagotchi directory, run "dotnet run" to run application within terminal. Follow the instructions outlined in the terminal.
 4. Open the project in your text editor to view the code.
 
 
@@ -41,6 +42,6 @@ This is a practice project for practicing C#, Razor, .NET framework, and MVC for
 
 [_MIT_](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2021, Logan Roth, Morgan Bradford.
+Copyright (c) 2021, Logan Roth, Jeroen van Seeters, Levi Kohler.
 
 Please contact Contributor for further use information or if you would like to make a contribution.
